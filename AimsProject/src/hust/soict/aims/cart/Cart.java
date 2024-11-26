@@ -1,4 +1,7 @@
+package hust.soict.aims.cart;
 import java.util.ArrayList;
+
+import hust.soict.aims.disc.DigitalVideoDisc;
 
 public class Cart {
     private ArrayList<DigitalVideoDisc> digitalVideoDiscs = new ArrayList<>();
@@ -7,7 +10,7 @@ public class Cart {
     // Add a DVD to the cart
     public void addDigitalVideoDisc(DigitalVideoDisc disc) {
         if (qtyOrdered < 20) {
-            digitalVideoDiscs.add(disc);
+            DigitalVideoDisc.add(disc);
             qtyOrdered++;
             System.out.println("The disc " + disc.getTitle() + " has been added to the cart.");
         } else {
