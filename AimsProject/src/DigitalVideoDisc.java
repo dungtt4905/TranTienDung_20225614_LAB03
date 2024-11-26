@@ -24,7 +24,15 @@ public class DigitalVideoDisc {
         this.cost = cost;
     }
 
-    // Getters
+    public DigitalVideoDisc(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public DigitalVideoDisc(String string, String string2, String string3, String string4, int i, double d) {
+		// TODO Auto-generated constructor stub
+	}
+
+	// Getters
     public int getId() {
         return id;
     }
@@ -60,4 +68,9 @@ public class DigitalVideoDisc {
         return "DigitalVideoDisc [ID=" + id + ", Title=" + title + ", Category=" + category +
                ", Director=" + director + ", Length=" + length + " min, Cost=$" + cost + "]";
     }
+
+	public void setTitle(String title2) {
+		// TODO Auto-generated method stub
+		
+	}
 }
