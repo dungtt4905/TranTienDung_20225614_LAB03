@@ -1,3 +1,4 @@
+package hust.soict.aims.disc;
 public class DigitalVideoDisc {
     // Class (static) variable
     private static int nbDigitalVideoDiscs = 0;
@@ -70,6 +71,11 @@ public class DigitalVideoDisc {
     }
 
 	public void setTitle(String title2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void add(DigitalVideoDisc disc) {
 		// TODO Auto-generated method stub
 		
 	}
