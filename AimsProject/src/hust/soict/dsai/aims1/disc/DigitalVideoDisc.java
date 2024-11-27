@@ -1,6 +1,7 @@
-package hust.soict.aims.disc;
+package hust.soict.dsai.aims1.disc;
+
 public class DigitalVideoDisc {
-    // Class (static) variable
+	// Class (static) variable
     private static int nbDigitalVideoDiscs = 0;
 
     // Instance variables
@@ -30,6 +31,10 @@ public class DigitalVideoDisc {
 	}
 
 	public DigitalVideoDisc(String string, String string2, String string3, String string4, int i, double d) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public DigitalVideoDisc(String string, String string2, float f) {
 		// TODO Auto-generated constructor stub
 	}
 
